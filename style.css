@@ -1,0 +1,255 @@
+@font-face {
+	font-family: ok;
+	src: url("font/ok.otf");
+}
+@font-face {
+	font-family: lol;
+	src: url("font/lol.ttf");
+
+}
+.main {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(top, rgb(92, 224, 210) 0%, rgb(8, 72, 153) 100%);
+	opacity: 0.6;
+	
+
+}
+.heading {
+	text-align: center;
+	font-family: ok;
+	font-weight: 700;
+	font-size: 74px;
+	letter-spacing: 4px;
+	color: #fff;
+	margin-top: 0px;
+	word-spacing: 3px;
+}
+.heading2 {
+	text-align: center;
+	font-family: lol;
+	line-height: 50px;
+	font-weight: 700;
+	font-size: 42px;
+	color: #233639;
+	width: 80%;
+	left: 50%;
+	top: 5px;
+	position: relative;
+	transform: translateX(-50%);
+
+	margin-top: 8px;
+	word-spacing: 3px;
+}
+body {
+	overflow-x: hidden;
+}
+.main img {
+	width: 30px;
+	margin-left: 115px;
+}
+span {
+	font-size: 28px;
+	font-family: segoe ui;
+	font-weight: 300;
+}
+.imgs {
+	
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 170px;
+}
+.down {
+	font-family: segoe ui;
+	font-weight: 300;
+	color:#fff;
+	transform: rotate(90deg) scale(1,1.7) translateX(-50%);
+	width: 40px;
+	font-size: 32px;
+	position: absolute;
+	left: 50%;
+	margin-top: 180px;
+
+}
+.bg {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url(bg.jpg) center center no-repeat fixed, -webkit-linear-gradient(top, rgb(92, 224, 210) 0%, rgb(8, 72, 153) 100%);
+	background-blend-mode: multiply;
+	position: absolute;
+}
+.text-pos {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.sub-heading {
+	text-align: center;
+	font-family: julius sans one;	
+	font-weight: 700;
+	font-size:20px;
+	letter-spacing: 2px;
+	color: #fff;
+	opacity: 0.9;
+	margin-top: 12px;
+}
+.upar {
+	text-align: center;
+	font-family: julius sans one;	
+	font-weight: 700;
+	font-size:18px;
+	letter-spacing: 2px;
+	color: #fff;
+	opacity: 0.9;
+	margin-top: 12px;
+}
+button {
+	position: relative;
+	
+	margin-top: 60px;
+	width: 175px;
+	height: 47px;
+	border: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	border: 1px solid #fff;
+	background: rgba(0,0,0,0.4);
+	outline: none;
+	font-family: montserrat;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.buttons {
+	position: relative;
+	left: 49.8%;
+	transform: translateX(-50%);
+	width: 360px;
+
+}
+.sec2 {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	height: 35%;
+	background: #fafafa;
+	left: 0;
+}
+.header {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background: #333;
+}
+.sec3 {
+	position: absolute;
+	top: 135%;
+	width: 100%;
+	height: 120%;
+	background: #ebebeb;
+	left: 0;
+}
+.heading3 {
+
+	text-align: center;
+	font-family: lol;
+	font-weight: 700;
+	font-size: 52px;
+	color: #233639;
+	width: 80%;
+	left: 50%;
+	top: 1px;
+	position: relative;
+	transform: translateX(-50%);
+
+	margin-top: 60px;
+	word-spacing: 3px;
+}
+.videos {
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	margin-top: 50px;
+	height: 100%;
+}
+.video {
+	position: relative;
+	width: 30.3%;
+	height: 31.3%;
+	margin-top: 0px;
+	margin-left: 30px;
+	overflow: hidden;
+	float: left;
+	
+}
+.video img {
+	width: 100%;
+	height: 100%;
+	border: 10px solid #fff;
+	box-sizing: border-box;
+	
+
+}
+.sec {
+	margin-top: 60px;
+}
+.sec4	 {
+	position: absolute;
+	top: 255%;
+	width: 100%;
+	height: 50%;
+	background: url(bg.jpg) no-repeat fixed, -webkit-linear-gradient(top, rgb(92, 224, 210) 0%, rgb(8, 72, 153) 100%);
+	background-blend-mode: multiply;
+	left: 0;
+}
+.heading4 {
+	text-align: center;
+	font-family: lol;
+	font-weight: 700;
+	font-size: 22px;
+	color: #fff;
+	width: 80%;
+	left: 50%;
+	top: 1px;
+	position: relative;
+	transform: translateX(-50%);
+	word-spacing: 3px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.mail {
+		text-align: center;
+	font-family: montserrat;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	width: 30%;
+	left: 50%;
+	top: 1px;
+	letter-spacing: 5px;
+	position: relative;
+	transform: translateX(-50%);
+	word-spacing: 3px;
+	margin-top: 28px;
+}
