@@ -4,15 +4,72 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100" rel="stylesheet">
+<script type="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+<script src="mediaelement-and-player.min.js"></script>
 	<title></title>
 </head>
+<script type="text/javascript">
+	$(document).ready( function() {
+		$(".videos").click( function() {
+			$(".overlay2").fadeIn();
+			$(".player").fadeIn();
+		});
+
+		$('#cross').click( function() {
+			$(".overlay2").fadeOut();
+			$(".player").fadeOut();
+		});
+	});  
+</script>
+
+<script type="text/javascript">
+	window.onload = function() {
+		var video = document.getElementById("vid");
+		var video1 = document.getElementById("v1");		
+		var video2 = document.getElementById("v2");
+		var video3 = document.getElementById("v3");
+		var video4 = document.getElementById("v4");
+		var video5 = document.getElementById("v5");
+		var video6 = document.getElementById("v6");
+		var cross = document.getElementById("cross");
+
+		video1.addEventListener("click", function() {
+			video.setAttribute("src", "https://www.youtube.com/embed/6elDO5esNuc?autoplay=1");
+		});
+		video2.addEventListener("click", function() {
+			video.setAttribute("src", "https://www.youtube.com/embed/IRtXe_oX-Bs?autoplay=1");
+		});
+		video3.addEventListener("click", function() {
+			video.setAttribute("src", "https://www.youtube.com/embed/Kz2X67oHyzE?autoplay=1");
+		});
+		video4.addEventListener("click", function() {
+			video.setAttribute("src", "https://www.youtube.com/embed/ToiV7Sm6qRg?autoplay=1");
+		});
+		video5.addEventListener("click", function() {
+			video.setAttribute("src", "https://www.youtube.com/embed/Rerlmifif0c?autoplay=1");
+		});
+
+		video6.addEventListener("click", function() {
+			video.setAttribute("src", "https://www.youtube.com/embed/6NBhSvHqyMo?autoplay=1");
+		});
+		cross.addEventListener("click", function() {
+			video.setAttribute("src"," ");
+		});
+	}
+</script>
 <body>
+<div class = "videop">
+	<div class = "overlay2"><img id = "cross" src="cancel-music.png"></div>
+	<div class = "player">
+
+		<iframe id = "vid" src= "" frameborder="0" allowfullscreen autoplay></iframe>
+	</div>
+</div>
 <div class = "main">
 <div class = "bg"></div>
 <div class = "text-pos">
 	<div class = "heading">AKSHAY KHANDELWAL</div>
-	<div class = "imgs"><img style = "margin-left: -10px;"src="video3.png"><img src="video.png"><img src="video2.png"><img src="video4.png"></div>
+
 </div>
 
 <div class = "bts">
@@ -20,31 +77,39 @@
 </div>
 </div><div class = "sec2">
 	<div class = "text-pos"> 
-		<div class = "heading2">I'm a video editor based in New Delhi, India<br><span style = "margin-top: 30px;position: relative;">Perfect idhar kuch aur text daalna hai idk kya lol aaryak tmkc.<span></div>
+		<div class = "heading2">I'm a Designer based in New Delhi, India<br><span style = "margin-top: 30px;position: relative;">Perfect idhar kuch aur text daalna hai idk kya lol aaryak tmkc.<span></div>
 	</div>
 </div>
 <div class = "sec3">
-<div class = "heading3">Think. Create. Innovate.</div>
+<div class = "heading3">Developer. Designer. Innovator</div>
 	<div class = "videos">
-		<div class="video"><img src="mountain.jpg"></div> 		
+		<div class="video" id = "v5"><img src="mountain5.jpg"></div> 		
 
-		<div class="video"><img src="mountain.jpg"></div>					
+		<div class="video" id = "v4"><img src="mountain4.jpg"></div>					
 
-		<div class="video" ><img src="mountain.jpg"></div>		
+		<div class="video" id = "v3" ><img src="mountain3.jpg"></div>		
 
-		<div class="video sec"><img src="mountain.jpg"></div>		
+		<div class="video sec" id = "v2"><img src="mountain2.jpg"></div>		
 
-		<div class="video sec"><img src="mountain.jpg"></div>	
+		<div class="video sec" id = "v1"><img src="mountain.jpg"></div>	
 
-		<div class="video sec"><img src="mountain.jpg"></div>	
+		<div class="video sec" id = "v6"><img src="mountain6.jpg"></div>	
 					
 									
 	</div>
 </div>
 <div class="sec4">
 <div class = "text-pos">
-	<div class = "heading4">Lets make something together!</div>
-	<button class = "mail">xnxx@akshaykhandelwal.com</button>
+	<div class = "heading4">Want to take me out on a date?</div>
+	<button class = "mail">akshay@exunclan.com</button>
+		<div class = "imgs">
+	<a href="https://www.facebook.com/Akshay.dpsrkp"><img style = "margin-left: -10px;"src="video3.png"></a>
+	<a href="https://www.instagram.com/akhand.99/">
+	<img src="video.png"></a>
+	<a href="https://www.youtube.com/channel/UCp-WdXYzKEKSZV5cJNfNCBw">
+	<img src="video2.png"></a>
+	<a href="https://www.behance.net/akshayexunf0bb">
+	<img src="video4.png"></a></div>
 </div>
 </div>
 
